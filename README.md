@@ -1,6 +1,6 @@
 # adrria_kmc
 
-This is an Android App I developed in 2019 to be used for reporting Adverse Drug Reaction by the Kasturba Hospital Manipal. It was a part of my final year's student project.
+This is an Android App I developed in 2019 to be used for reporting Adverse Drug Reaction by the Kasturba Hospital Manipal University. It was a part of my final year's student project.
 
 Its not published on the playstore, for security reasons. 
 
@@ -8,6 +8,8 @@ However you can view a sample video of the app at the link below. Here the video
 https://drive.google.com/open?id=1-7BhBwIobya4guK7H0tOi6IDqUD9Prqh
 
 The app was developed in Java through Android Studio, and firebase is used for realtime database and authentication service.
+
+The app has many features like authentication, account management system, messaging service, reporting service, sending auto-generated emails,firebase database handling, complex querying the realtimedatabase, separate admin controls(abstraction) etc 
 
 -------------
 Notes:
