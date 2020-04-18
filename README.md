@@ -14,7 +14,7 @@ The app has many features like authentication, account management system, messag
 -------------
 Notes:
 
-For security reasons, I created a separate copy of my orignal app. And i haven't added or linked this project to firebase. So please create your own firebase project, for this to work.
+For security reasons, I created a separate copy of my orignal project. And i haven't added or linked this project to firebase. So please create your own firebase project, for this to work.
 Add firebase realtime database and authentication service(enable email authentication too). 
 I have added an image "tree.jpeg" file just to show you my firebase realtime database structure. 
 
