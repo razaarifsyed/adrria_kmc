@@ -2,6 +2,9 @@
 
 This is an Android App I developed in 2019 to be used for reporting Adverse Drug Reaction by the Kasturba Hospital Manipal. It was a part of my final year's student project.
 
+You can view a sample video of the app at the link below. However the video shows a very older version, when the app was still in draft stage. 
+https://drive.google.com/open?id=1-7BhBwIobya4guK7H0tOi6IDqUD9Prqh
+
 The app was developed in Java through Android Studio, and firebase is used for realtime database and authentication service.
 
 -------------
