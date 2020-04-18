@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_wrapHeight="118"
+        tools:layout_conversion_wrapWidth="1080">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="ADRRIA : KMC"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="13dp" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="126sp"
+        android:layout_height="95dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="@id/toolbar"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:srcCompat="@drawable/mu"
+        tools:layout_conversion_wrapHeight="249"
+        tools:layout_conversion_wrapWidth="331" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-163sp"
+        android:layout_marginTop="6sp"
+        android:text="Patient Info"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        tools:layout_conversion_wrapHeight="85"
+        tools:layout_conversion_wrapWidth="323" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-213dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="Enter  Patient ID"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        tools:layout_conversion_wrapHeight="118"
+        tools:layout_conversion_wrapWidth="560" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-212dp"
+        android:layout_marginTop="-4dp"
+        android:ems="10"
+        android:hint="Enter Location"
+        android:inputType="textMultiLine|textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextName"
+        tools:layout_conversion_wrapHeight="118"
+        tools:layout_conversion_wrapWidth="560" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-159sp"
+        android:layout_marginTop="-3sp"
+        android:text="Reaction Info"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editText3"
+        tools:layout_conversion_wrapHeight="85"
+        tools:layout_conversion_wrapWidth="369" />
+
+    <EditText
+        android:id="@+id/editText44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-212dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Name of Reporter"
+        android:inputType="textPersonName"
+        android:textColor="#3F51B5"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView16"
+        tools:layout_conversion_wrapHeight="118"
+        tools:layout_conversion_wrapWidth="560" />
+
+    <Spinner
+        android:id="@+id/spinnerGenres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-211dp"
+        android:layout_marginTop="11dp"
+        android:entries="@array/genres"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editText44"
+        tools:layout_conversion_wrapHeight="63"
+        tools:layout_conversion_wrapWidth="568" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-211dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Remarks(optional)"
+        android:inputType="textMultiLine|textPersonName|textImeMultiLine"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerGenres"
+        tools:layout_conversion_wrapHeight="118"
+        tools:layout_conversion_wrapWidth="560" />
+
+    <Button
+        android:id="@+id/buttonAddReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-166dp"
+        android:layout_marginTop="23dp"
+        android:background="#F7EA7B"
+        android:text="Report "
+        android:textColor="#9C27B0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editText13"
+        tools:layout_conversion_wrapHeight="126"
+        tools:layout_conversion_wrapWidth="231" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        tools:layout_conversion_wrapHeight="50"
+        tools:layout_conversion_wrapWidth="154" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-271dp"
+        android:layout_marginBottom="-1dp"
+        android:text="                                 ©2020 Designed by Dept. of Pharmacology, KMC"
+        android:textColor="#673AB7"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_conversion_wrapHeight="36"
+        tools:layout_conversion_wrapWidth="759" />
+
+</android.support.constraint.ConstraintLayout>

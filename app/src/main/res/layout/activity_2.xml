@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="365dp"
+        android:layout_height="13dp"
+        android:layout_below="@id/listViewReports"
+        android:layout_marginBottom="4dp"
+        android:text="                                 ©2019 Designed by Dept. of Pharmacology, KMC"
+        android:textColor="#673AB7"
+        android:textSize="10sp" />
+
+    <ListView
+        android:id="@+id/listViewReports"
+        android:layout_width="382dp"
+        android:layout_height="745dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+
+</RelativeLayout>

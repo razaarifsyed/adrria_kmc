@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">f13</string>
+
+    <array name="genres">
+        <item>Requires intervention</item>
+        <item>Death</item>
+        <item>Life-threatening</item>
+        <item>Hospitalization</item>
+        <item>Disability</item>
+        <item>Congenital anomaly</item>
+
+
+    </array>
+
+</resources>

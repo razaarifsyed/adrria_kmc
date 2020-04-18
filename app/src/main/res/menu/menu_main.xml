@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+        android:id="@+id/m1"
+        android:icon="@android:drawable/btn_star_big_on"
+
+        android:title="Signed in As:" />
+
+
+
+    <item
+        android:id="@+id/m8"
+        android:title="Make an Enquiry"
+
+        />
+
+
+    <item
+        android:id="@+id/m2"
+        android:title="My Reports"
+
+        />
+
+    <item
+        android:id="@+id/m3"
+        android:title="My Enquiries"
+
+        />
+    <item
+        android:id="@+id/m4"
+        android:title="Admin Access"
+
+        />
+
+
+    <item
+        android:id="@+id/m5"
+        android:title="About Us!"
+
+
+        />
+
+
+    <item
+        android:id="@+id/m6"
+        android:title="Sign Out"
+
+
+        />
+
+
+</menu>
