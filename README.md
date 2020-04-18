@@ -16,7 +16,7 @@ You will have to modify the layouts in the project wherever an activity uses con
 
 Replace wherever you see 
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" 
-to 
+to
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
 And replace
