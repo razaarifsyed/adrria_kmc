@@ -4,7 +4,7 @@ This is an Android App I developed in 2019 to be used for reporting Adverse Drug
 
 The app was developed in Java through Android Studio, and firebase is used for realtime database and authentication service.
 
-
+-------------
 Notes:
 
 For security reasons, I created a separate copy of my orignal app. And i haven't added or linked this project to firebase. So please create your own firebase project, for this to work.
@@ -30,7 +30,7 @@ to
 
 Just lookout for constraint layout in the project, in case more modifications are needed.
 
-
+--------
 
 Let me know if you need any help or found this useful :)
 
