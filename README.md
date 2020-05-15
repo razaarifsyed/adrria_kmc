@@ -2,6 +2,11 @@
 
 This is an Android App I developed in 2019 to be used for reporting Adverse Drug Reaction by the Kasturba Hospital Manipal University. It was a part of my final year's student project.
 
+
+The app recieved a lot of attention, and was launched by the Pro Chancellor of the Manipal University. 
+It also got covered by many national and local newspapers. 
+https://timesofindia.indiatimes.com/home/education/news/app-to-report-adverse-drug-reactions-launched-in-mahe/articleshow/71750055.cms
+
 Its not published on the playstore, for security reasons. 
 
 However you can view a sample video of the app at the link below. Here the video shows an older version of the app, when the app was still in draft stage. 
